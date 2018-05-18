@@ -8,5 +8,4 @@ RUN apk add --virtual .build-deps build-base linux-headers --update \
  && pip install --no-cache-dir -r requirements.txt \
  && apk del .build-deps
 
-ENTRYPOINT ["swift"]
-CMD ["-h"]
+CMD ["swift"]
