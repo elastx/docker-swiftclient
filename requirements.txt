@@ -1,1 +1,1 @@
-python-swiftclient==3.5.0
+python-swiftclient==3.11.0
